@@ -1,11 +1,72 @@
-*{
-    margin: 0px;
-    padding: 0px;
-}
+
 
 body{
     background-color: rgba(22, 14, 140 );
 }
+
+ul{
+
+    margin: 0px;
+    padding: 0px;
+    padding-left: 220px;
+}
+
+ul li{
+
+    float: left;
+  
+    list-style: none;
+
+
+}
+
+
+ul li a{
+ 
+    
+
+    text-decoration: none;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(7, 186, 240);
+    color: black;
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    transition: 1s;
+   
+
+
+}
+
+ul li a:hover{
+    background-color: rgb(21, 0, 255);
+    color: rgb(20, 20, 20);
+}
+
+
+ul input{
+
+   
+    width: 150px;
+    height: 30px;
+    background-color: rgb(7, 186, 240);
+    color: black;
+    text-align: center;
+    line-height: 30px;
+    transition: 1s;
+   
+
+
+}
+
+
+ul input:hover{
+    background-color: rgb(221, 10, 179);
+   
+}
+
+
 
 .w-100{
     width: 100%;
@@ -30,7 +91,7 @@ body{
     overflow: hidden;
     background-color: aliceblue;
     transition: 1s;
-    height: 530px;
+    height: 610px;
     
     
 }
@@ -41,7 +102,7 @@ body{
 
 
 .content{
-    padding: 20px;
+    padding: 10px;
     text-align: left;
     
 
@@ -50,7 +111,7 @@ body{
 .header h5 button{
     padding: 5px;
     border-radius:5px;
-    margin: 9px;
+    margin: 5px;
     
     
 }
